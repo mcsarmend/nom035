@@ -250,7 +250,8 @@
                             <label for="nunca">Nunca:</label>
                             <input type="radio" name="secc3quest12" value="0" id="nunca">
                             </p>
-
+                            <hr>
+                            
                             <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.') }}</div>
                             <br>
                             <p>13.- En mi trabajo soy responsable de cosas de mucho valor
@@ -330,6 +331,7 @@
                             <label for="nunca">Nunca:</label>
                             <input type="radio" name="secc3quest12" value="0" id="nunca">
                             </p>
+                            <hr>
                             
                             <br>
                             <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con su jornada de trabajo.') }}</div>
@@ -451,7 +453,7 @@
                             <label for="nunca">Nunca:</label>
                             <input type="radio" name="secc3quest12" value="0" id="nunca">
                             </p>
-
+                            <hr>
                             <br>
                             <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con las decisiones que puede tomar en su trabajo.') }}</div>
                             <br>
@@ -569,8 +571,911 @@
                             <label for="nunca">Nunca:</label>
                             <input type="radio" name="secc3quest12" value="4" id="nunca">
                             </p>
+                            <hr>
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con cualquier tipo de cambio que ocurra en su trabajo (considere los últimos cambios realizados).') }}</div>
+                            <br>
 
-                            <button type="submit" class="btn btn-primary" id = "send_2"   >Enviar</button>
+                            <p>29.- Los cambios que se presentan en mi trabajo dificultan mi labor
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+                            
+                            <p>30.- Cuando se presentan cambios en mi trabajo se tienen en cuenta mis ideas o aportaciones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+                            <hr>
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con la capacitación e información que se le proporciona sobre su trabajo.') }}</div>
+                            <br>
+                            
+                            <p>31.- Me informan con claridad cuáles son mis funciones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>32.- Me explican claramente los resultados que debo obtener en mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>33.- Me explican claramente los objetivos de mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>34.- Me informan con quién puedo resolver problemas o asuntos de trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>35.- Me permiten asistir a capacitaciones relacionadas con mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>36.- Recibo capacitación útil para hacer mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+                            <hr>
+
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes están relacionadas con el o los jefes con quien tiene contacto.') }}</div>
+                            <br>
+
+                            <p>37.- Mi jefe ayuda a organizar mejor el trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>38.- Mi jefe tiene en cuenta mis puntos de vista y opiniones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>39.- Mi jefe me comunica a tiempo la información relacionada con el trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>40.- La orientación que me da mi jefe me ayuda a realizar mejor mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>41.- Mi jefe ayuda a solucionar los problemas que se presentan en el trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+                            <hr>
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes se refieren a las relaciones con sus compañeros.') }}</div>
+                            <br>
+
+                            <p>42.- Puedo confiar en mis compañeros de trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>43.- Entre compañeros solucionamos los problemas de trabajo de forma respetuosa
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>44.- En mi trabajo me hacen sentir parte del grupo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>45.- Cuando tenemos que realizar trabajo de equipo los compañeros colaboran
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>46.- Mis compañeros de trabajo me ayudan cuando tengo dificultades
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+                            <hr>
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes se refieren a las relaciones con sus compañeros.') }}</div>
+                            <br>
+                            
+                            <p>47.- Me informan sobre lo que hago bien en mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>48.- La forma como evalúan mi trabajo en mi centro de trabajo me ayuda a mejorar mi desempeño
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>49.- En mi centro de trabajo me pagan a tiempo mi salario
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>50.- El pago que recibo es el que merezco por el trabajo que realizo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>51.- Si obtengo los resultados esperados en mi trabajo me recompensan o reconocen
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>52.- Las personas que hacen bien el trabajo pueden crecer laboralmente
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+
+                            <p>53.- Considero que mi trabajo es estable
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>54.- En mi trabajo existe continua rotación de personal
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>55.- Siento orgullo de laborar en este centro de trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>56.- Me siento comprometido con mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+                            <hr>
+
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes se refieren a las relaciones con sus compañeros.') }}</div>
+                            <br>
+
+                            <p>57.- En mi trabajo puedo expresarme libremente sin interrupciones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="nunca">
+                            </p>
+
+                            <p>58.- Recibo críticas constantes a mi persona y/o trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>59.- Recibo burlas, calumnias, difamaciones, humillaciones o ridiculizaciones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+
+                            <p>60.- Se ignora mi presencia o se me excluye de las reuniones de trabajo y en la toma de decisiones
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>61.- Se manipulan las situaciones de trabajo para hacerme parecer un mal trabajador
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>62.- Se ignoran mis éxitos laborales y se atribuyen a otros trabajadores
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>63.- Me bloquean o impiden las oportunidades que tengo para obtener ascenso o mejora en mi trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+
+                            <p>64.- He presenciado actos de violencia en mi centro de trabajo
+                            <br>
+                        
+                            <label for="siempre">Siempre:</label>
+                            <input type="radio" name="secc3quest12" value="4" id="siempre">
+                            
+                            <label for="casi-siempre">Casi siempre:</label>
+                            <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                            
+                            <label for="algunas-veces">Algunas veces:</label>
+                            <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                            
+                            <label for="casi-nunca">Casi nunca:</label>
+                            <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                            
+                            <label for="nunca">Nunca:</label>
+                            <input type="radio" name="secc3quest12" value="0" id="nunca">
+                            </p>
+                            <hr>
+                            <br>
+                            <div class="card-header">{{ __('Las preguntas siguientes se refieren a las relaciones con sus compañeros.') }}</div>
+                            <br>
+                        
+                         
+                            <label for="pregunta1">En mi trabajo debo brindar servicio a clientes o usuarios:</label>
+                            <select id="pregunta1" name="pregunta1" class="form-select">
+                              <option value="si">Sí</option>
+                              <option value="no">No</option>
+                            </select>
+                            <br>
+                            
+                            <div id="preguntasAdicionales" style="display:none;">
+                              
+                                <p>65.- Atiendo clientes o usuarios muy enojados
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                                <p>66.- Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                                <p>67.- Para hacer mi trabajo debo demostrar sentimientos distintos a los míos
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+
+                                <p>68.- Mi trabajo me exige atender situaciones de violencia
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                            </div>
+
+
+
+                            <label for="pregunta2">En mi trabajo debo brindar servicio a clientes o usuarios:</label>
+                            <select id="pregunta2" name="pregunta1" class="form-select">
+                              <option value="si">Sí</option>
+                              <option value="no">No</option>
+                            </select>
+                            <br>
+                            
+                            <div id="preguntasAdicionales2" style="display:none;">
+                              
+                                <p>65.- Atiendo clientes o usuarios muy enojados
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                                <p>66.- Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                                <p>67.- Para hacer mi trabajo debo demostrar sentimientos distintos a los míos
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+
+                                <p>68.- Mi trabajo me exige atender situaciones de violencia
+                                <br>
+                            
+                                <label for="siempre">Siempre:</label>
+                                <input type="radio" name="secc3quest12" value="4" id="siempre">
+                                
+                                <label for="casi-siempre">Casi siempre:</label>
+                                <input type="radio" name="secc3quest12" value="3" id="casi-siempre">
+                                
+                                <label for="algunas-veces">Algunas veces:</label>
+                                <input type="radio" name="secc3quest12" value="2" id="algunas-veces">
+                                
+                                <label for="casi-nunca">Casi nunca:</label>
+                                <input type="radio" name="secc3quest12" value="1" id="casi-nunca">
+                                
+                                <label for="nunca">Nunca:</label>
+                                <input type="radio" name="secc3quest12" value="0" id="nunca">
+                                </p>
+
+                            </div>
+                            
+                            
+                            
+                            <br>
+                                <button type="submit" class="btn btn-primary" id = "send_2"   >Enviar</button>
                           </form>
                     </div>
                 </div>
@@ -584,6 +1489,35 @@
         $(document).ready(function() {
             // Selecciona el botón con la clase 'btn-primary' y cambia su color de fondo a rojo
             $('.btn-primary').css('background-color', 'green');
+
+            $('#preguntasAdicionales').show();
+            $('#preguntasAdicionales2').show();
+
+
+
+            // Registra el evento 'change' en la pregunta 1
+            $('#pregunta1').on('change', function() {
+            // Si se selecciona 'si', muestra la sección de preguntas adicionales
+            if ($(this).val() === 'si') {
+                $('#preguntasAdicionales').show();
+            } else {
+                // Si se selecciona 'no', oculta la sección de preguntas adicionales
+                $('#preguntasAdicionales').hide();
+            }
+            });
+
+            // Registra el evento 'change' en la pregunta 1
+            $('#pregunta2').on('change', function() {
+            // Si se selecciona 'si', muestra la sección de preguntas adicionales
+            if ($(this).val() === 'si') {
+                $('#preguntasAdicionales2').show();
+            } else {
+                // Si se selecciona 'no', oculta la sección de preguntas adicionales
+                $('#preguntasAdicionales2').hide();
+            }
+            });
+
+
         });
 
 
