@@ -1,14 +1,13 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class riesgopsicosocialController extends Controller
+class FormularioController extends Controller
 {
     public function mostrarFormulario()
     {
-        return view('riesgo_psicosocial');
+        return view('formulario');
     }
 
     public function procesarFormulario(Request $request)

@@ -8,7 +8,7 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-
+use Carbon\Carbon;
 class RegisterController extends Controller
 {
     /*
@@ -76,7 +76,8 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-
+        $birthday = date('Y-m-d H:i:s', strtotime($data['birthday']));
+        $day_admition = date('Y-m-d H:i:s', strtotime($data['date_admition']));
         return User::create([
             'name' => $data['name'],
             'lnamep' => $data['lnamep'],
@@ -84,7 +85,7 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'type' => "1",
             'gender' => $data['gender'],
-            'birthday' => $data['birthday'],
+            'birthday' => $birthday,
             'civil_status' => $data['civil_status'],
             'social_reason' => $data['social_reason'],
             'client' => $data['client'],
@@ -92,7 +93,7 @@ class RegisterController extends Controller
             'position' => $data['position'],
             'position_type' => $data['position_type'],
             'working_day' => $data['working_day'],
-            'date_admition' => $data['date_admition'],
+            'date_admition' =>$day_admition,
             'password' => Hash::make($data['password']),
         ]);
     }

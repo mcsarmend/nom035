@@ -147,8 +147,8 @@
                             
                             <div class="col-md-6">
                                 <select id="social_reason" class="form-control @error('social_reason') is-invalid @enderror" name="social_reason" required>
-                                    <option value="">Sin seleccionar</option>
-                                    <option value="jonsusacv" @if(old('jonsusacv') == 'jonsusacv') selected @endif>Soluciones Jonsu SA de CV</option>
+                                    
+                                    <option value="jonsusacv" @if(old('jonsusacv') == 'jonsusacv') selected @endif>Be Group</option>
                                     
                                 </select>
 

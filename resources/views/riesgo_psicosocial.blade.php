@@ -10,7 +10,7 @@
                     
 
                     <div class="card-body">
-                        <form action="/riesgo_psicosocial_quest" method="POST">
+                        <form action="/procesarFormularioRP" method="POST">
                             @csrf
                     
                             <div class="card-header">{{ __('Para responder las preguntas siguientes considere las condiciones ambientales de su centro de trabajo.') }}</div>
