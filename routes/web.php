@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\riesgopsicosocialController;
 use App\Http\Controllers\acontecimientostraumaticosController;
 use App\Http\Controllers\FormularioController;
+use App\Http\Controllers\terminadoController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -12,8 +13,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-/* Route::get('/riesgo_psicosocial', [riesgopsicosocialController::class, 'index'])->name('index');
-Route::get('/acontecimientos_traumaticos', [acontecimientostraumaticosController::class, 'index']); */
 
 
 
@@ -32,13 +31,9 @@ Route::get('/riesgo_psicosocial', [riesgopsicosocialController::class, 'mostrarF
 // Formulario 
 
 Route::post('/procesarFormularioAT', [acontecimientostraumaticosController::class, 'procesarFormulario']);
-Route::post('/procesarFormularioRP', [FormularioController::class, 'procesarFormulario']);
-
-/* 
-// Confurmacion 
-Route::get('/acontecimientos_traumaticos/confirmacion', [acontecimientostraumaticosController::class, 'confirmacion'])->name('formulario.confirmacion');
-Route::get('/riesgo_psicosocial/confirmacion', [riesgopsicosocialController::class, 'confirmacion'])->name('formulario.confirmacion');
- */
+Route::post('/procesarFormularioRP', [riesgopsicosocialController::class, 'procesarFormulario']);
 
 
+// Terminado
+Route::get('/terminado', [terminadoController::class, 'terminado']);
 

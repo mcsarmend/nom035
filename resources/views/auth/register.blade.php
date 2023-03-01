@@ -165,7 +165,8 @@
                             <div class="col-md-6">
                                 <select id="client" class="form-control @error('client') is-invalid @enderror" name="client" required>
                                     <option value="">Sin seleccionar</option>
-                                    <option value="eddistribution" @if(old('eddistribution') == 'eddistribution') selected @endif>Grupo ED Distribucón</option>
+                                    <option value="eddistribution" @if(old('eddistribution') == 'eddistribution') selected @endif>Grupo ED Distribución</option>
+                                    <option value="edtransportations" @if(old('eddistribution') == 'edtransportations') selected @endif>Grupo ED Transportes</option>
                                     
                                 </select>
 

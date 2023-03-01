@@ -48,7 +48,6 @@ class acontecimientostraumaticosController extends Controller
             $cad = 'call insert_form_1('.$id.',"'.$request["sec1quest1"].'","'.$request["sec1quest2"].'","'.$request["sec1quest3"].'","'.$request["sec1quest4"].'","'.$request["sec1quest5"].'","'.$request["sec1quest6"].'","'.$request["sec2quest1"].'","'.$request["sec2quest2"].'","'.$request["sec3quest1"].'","'.$request["sec3quest2"].'","'.$request["sec3quest3"].'","'.$request["sec3quest4"].'","'.$request["sec3quest5"].'","'.$request["sec3quest6"].'","'.$request["sec3quest7"].'","'.$request["sec4quest1"].'","'.$request["sec4quest2"].'","'.$request["sec4quest3"].'","'.$request["sec4quest4"].'","'.$request["sec4quest5"].'")';
             DB::select($cad);
             $check = 'call check_form1('.$id.')';
-            
             DB::select($check);
             $mensaje='Se guardo el formulario correctamente';
             return response()->json(['success'=>$mensaje]);
