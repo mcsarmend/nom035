@@ -155,14 +155,14 @@
                 
         
         $(document).ready(function() {
-            // Selecciona el botón con la clase 'btn-primary' y cambia su color de fondo a rojo
-            $('.btn-primary').css('background-color', 'green');
+                    // Selecciona el botón con la clase 'btn-primary' y cambia su color de fondo a rojo
+                    $('.btn-primary').css('background-color', 'green');
 
-           
-            $('#boton').click(function() {
-  var respuesta = $('input[name="respuesta"]:checked').val();
-  console.log(respuesta); // Imprime "si" o "no", dependiendo de la opción seleccionada
-});
+                
+                    $('#boton').click(function() {
+        var respuesta = $('input[name="respuesta"]:checked').val();
+        console.log(respuesta); // Imprime "si" o "no", dependiendo de la opción seleccionada
+        });
 
 
 

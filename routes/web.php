@@ -5,6 +5,7 @@ use App\Http\Controllers\riesgopsicosocialController;
 use App\Http\Controllers\acontecimientostraumaticosController;
 use App\Http\Controllers\FormularioController;
 use App\Http\Controllers\terminadoController;
+use App\Http\Controllers\reportsController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,4 +37,6 @@ Route::post('/procesarFormularioRP', [riesgopsicosocialController::class, 'proce
 
 // Terminado
 Route::get('/terminado', [terminadoController::class, 'terminado']);
+Route::get('/report2', [reportsController::class, 'report2']);
+Route::get('/getinfoform2', [reportsController::class, 'getinfoform2']);
 
