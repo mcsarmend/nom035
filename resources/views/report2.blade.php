@@ -83,6 +83,30 @@
 
                                 <div class="col-sm-3">
                                   <div class="form-group">
+                                    <label>Puesto</label>
+                                    <select class="form-control" id="position">
+                                        <option value="">Sin seleccionar</option>
+                                        <option value="operations_analist" @if(old('operations_analist') == 'operations_analist') selected @endif>Analistade Operaciones</option>
+                                        <option value="direction_assistant" @if(old('direction_assistant') == 'direction_assistant') selected @endif>Asistente de dirección</option>
+                                        <option value="inventory_auditor" @if(old('inventory_auditor') == 'inventory_auditor') selected @endif>Auditor de inventarios</option>
+                                        <option value="administration_assistant" @if(old('administration_assistant') == 'administration_assistant') selected @endif>Auxiliar administrativo</option>
+                                        <option value="warehouse_assistant" @if(old('warehouse_assistant') == 'warehouse_assistant') selected @endif>Auxiliar de almacén</option>
+                                        <option value="buy_assistant" @if(old('buy_assistant') == 'buy_assistant') selected @endif>Auxiliar de compras</option>
+                                        <option value="clean_assistant" @if(old('clean_assistant') == 'clean_assistant') selected @endif>Auxiliar de Limpieza</option>
+                                        <option value="mainteinance_assistant" @if(old('mainteinance_assistant') == 'mainteinance_assistant') selected @endif>Auxiliar de Mantenimiento</option>
+                                        <option value="coo" @if(old('coo') == 'coo') selected @endif>Gerente de Operaciones</option>
+                                        <option value="maintenance" @if(old('maintenance') == 'maintenance') selected @endif>Mantenimiento</option>
+                                        <option value="forklift_operator" @if(old('forklift_operator') == 'forklift_operator') selected @endif>Operador de Montacargas</option>
+                                        <option value="rrhh" @if(old('rrhh') == 'rrhh') selected @endif>Recursos Humanos</option>
+                                        <option value="operations_supervisor" @if(old('operations_supervisor') == 'operations_supervisor') selected @endif>Supervisor de Operaciones</option>
+                                        <option value="operations_supervisor_jr" @if(old('jonsusacv') == 'jonsusacv') selected @endif>Supervisor de Operaciones Jr</option>
+                                        
+                                    </select>
+                                  </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                  <div class="form-group">
                                     <label>Tipo de puesto</label>
                                     <select class="form-control" id="position_type">
                                         <option value="">Sin seleccionar</option>
@@ -121,11 +145,97 @@
                         <figure class="highcharts-figure">
                           <div id="container"></div>
                           <p class="highcharts-description">
-                            All color options in Highcharts can be defined as gradients or patterns.
-                            In this chart, a gradient fill is used for decorative effect in a pie
-                            chart.
+                            Esta gráfica muestra los resultados de la evaluación del seguindo exámen.
                           </p>
+                          <div class="table-responsive" style="width:100%;">
+                          <table  id="idTable" class="table table-condensed table-hover" style="width:100%;overflow-x: auto;">
+
+                                <th scope="col">name</th>
+                                <th scope="col">id</th>
+                                <th scope="col">quest1</th>
+                                <th scope="col">quest2</th>
+                                <th scope="col">quest3</th>
+                                <th scope="col">quest4</th>
+                                <th scope="col">quest5</th>
+                                <th scope="col">quest6</th>
+                                <th scope="col">quest7</th>
+                                <th scope="col">quest8</th>
+                                <th scope="col">quest9</th>
+                                <th scope="col">quest10</th>
+                                <th scope="col">quest11</th>
+                                <th scope="col">quest12</th>
+                                <th scope="col">quest13</th>
+                                <th scope="col">quest14</th>
+                                <th scope="col">quest15</th>
+                                <th scope="col">quest16</th>
+                                <th scope="col">quest17</th>
+                                <th scope="col">quest18</th>
+                                <th scope="col">quest19</th>
+                                <th scope="col">quest20</th>
+                                <th scope="col">quest21</th>
+                                <th scope="col">quest22</th>
+                                <th scope="col">quest23</th>
+                                <th scope="col">quest24</th>
+                                <th scope="col">quest25</th>
+                                <th scope="col">quest26</th>
+                                <th scope="col">quest27</th>
+                                <th scope="col">quest28</th>
+                                <th scope="col">quest29</th>
+                                <th scope="col">quest30</th>
+                                <th scope="col">quest31</th>
+                                <th scope="col">quest32</th>
+                                <th scope="col">quest33</th>
+                                <th scope="col">quest34</th>
+                                <th scope="col">quest35</th>
+                                <th scope="col">quest36</th>
+                                <th scope="col">quest37</th>
+                                <th scope="col">quest38</th>
+                                <th scope="col">quest39</th>
+                                <th scope="col">quest40</th>
+                                <th scope="col">quest41</th>
+                                <th scope="col">quest42</th>
+                                <th scope="col">quest43</th>
+                                <th scope="col">quest44</th>
+                                <th scope="col">quest45</th>
+                                <th scope="col">quest46</th>
+                                <th scope="col">quest47</th>
+                                <th scope="col">quest48</th>
+                                <th scope="col">quest49</th>
+                                <th scope="col">quest50</th>
+                                <th scope="col">quest51</th>
+                                <th scope="col">quest52</th>
+                                <th scope="col">quest53</th>
+                                <th scope="col">quest54</th>
+                                <th scope="col">quest55</th>
+                                <th scope="col">quest56</th>
+                                <th scope="col">quest57</th>
+                                <th scope="col">quest58</th>
+                                <th scope="col">quest59</th>
+                                <th scope="col">quest60</th>
+                                <th scope="col">quest61</th>
+                                <th scope="col">quest62</th>
+                                <th scope="col">quest63</th>
+                                <th scope="col">quest64</th>
+                                <th scope="col">quest65</th>
+                                <th scope="col">quest66</th>
+                                <th scope="col">quest67</th>
+                                <th scope="col">quest68</th>
+                                <th scope="col">quest69</th>
+                                <th scope="col">quest70</th>
+                                <th scope="col">quest71</th>
+                                <th scope="col">quest72</th>
+                            
+							</thead>
+								<tbody id="idTbody" style = "background-color: white;">
+								</tbody>
+                            </table>
+                        </div>
                         </figure>
+
+                        <div class="container">
+                            
+                        </div>
+                        
                         
                     </div>
                 </div>
@@ -139,7 +249,8 @@
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <style>
     .container {
-    text-align: center; /* Alinear horizontalmente */
+    text-align: center;
+    justify-content: center; /* Alinear horizontalmente */
     }
 
     .box {
@@ -211,7 +322,7 @@
 </style>
 <script>
     $(document).ready(function() {
-        startGraph();
+        
     });
 
     function quest1(){
@@ -221,12 +332,15 @@
         window.location.href = "http://127.0.0.1:8000/report2";
     }
     function filtrar(){
+        var dataForTable = [];
+        var names = [];
         $.ajax({
             data: {
                 "gender": $('#gender').val(),
                 "civil_status": $('#civil_status').val(),
                 "social_reason": $('#social_reason').val(),
                 "area": $('#area').val(),
+                "position": $('#position').val(),
                 "position_type": $('#position_type').val(),
                 "working_day": $('#working_day').val()
 
@@ -235,76 +349,205 @@
             type: "GET",
             dataType: 'json',
                 success: function (data) {
-                if (data.success) {
-                    console.log(data)
-                }else{
-                    swal("Ocurrio un problema al solicitar la información","","error");
-                }
-            
+                console.log(data);
+                startGraph(data);
+                // Cada uno de los asesores 
+                data.forEach(element => {
+                    // suma de los valores de sus examenes 
+                    var sum = 0;
+                    var i = 0; 
+                    var name = element.name
+                    for (let prop in element) {
+                    if (i>=3){
+                        sum+= parseInt(element[prop]);
+                    }
+                       i++;
+                    }
+                    var sumarr = [];
+                    sumarr.push(sum);
+                    var color ="";
+                    if(sum<50){
+                        color = "#B5E3E7";
+                    }
+                    if(sum >=50 && sum <75){
+                        color = "#70E479";
+                    }
+                    if(sum >=75 && sum <99){
+                        color = "#F8FF8D";
+                    }
+                    if(sum >=99 && sum <140){
+                        color = "#FFC000";
+                    }
+                    if(sum >= 140){
+                        color = "#FE0100";
+                    }
+
+                    names.push(name);
+                    dataForTable.push({
+                        name:name,
+                        color:color, 
+                        data: sumarr,
+                    });
+                });
+                startGraph(dataForTable,names);
+                startReport(data);
         }})
     }
 
-    function startGraph(){
-        // Data retrieved from https://netmarketshare.com/
-        // Radialize the colors
-        Highcharts.setOptions({
-        colors: Highcharts.map(Highcharts.getOptions().colors, function (color) {
-            return {
-            radialGradient: {
-                cx: 0.5,
-                cy: 0.3,
-                r: 0.7
-            },
-            stops: [
-                [0, color],
-                [1, Highcharts.color(color).brighten(-0.3).get('rgb')] // darken
-            ]
-            };
-        })
-        });
+    function startReport(data){
+        // Array de objetos con los datos
+        var datos = [
+            { id: 1, nombre: "Juan", edad: 25 },
+            { id: 2, nombre: "Ana", edad: 30 },
+            { id: 3, nombre: "Pedro", edad: 20 }
+        ];
+        
+        // Crear la tabla
+        var miTabla = $("#miTabla").DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+            'excelHtml5',
+            'pdfHtml5',
+            'print'
+            ],
+            data: data,
+            columns: [
+                { data:"name"},
+                { data:"id"},
+                { data:"quest1"},
+                { data:"quest2"},
+                { data:"quest3"},
+                { data:"quest4"},
+                { data:"quest5"},
+                { data:"quest6"},
+                { data:"quest7"},
+                { data:"quest8"},
+                { data:"quest9"},
+                { data:"quest10"},
+                { data:"quest11"},
+                { data:"quest12"},
+                { data:"quest13"},
+                { data:"quest14"},
+                { data:"quest15"},
+                { data:"quest16"},
+                { data:"quest17"},
+                { data:"quest18"},
+                { data:"quest19"},
+                { data:"quest20"},
+                { data:"quest21"},
+                { data:"quest22"},
+                { data:"quest23"},
+                { data:"quest24"},
+                { data:"quest25"},
+                { data:"quest26"},
+                { data:"quest27"},
+                { data:"quest28"},
+                { data:"quest29"},
+                { data:"quest30"},
+                { data:"quest31"},
+                { data:"quest32"},
+                { data:"quest33"},
+                { data:"quest34"},
+                { data:"quest35"},
+                { data:"quest36"},
+                { data:"quest37"},
+                { data:"quest38"},
+                { data:"quest39"},
+                { data:"quest40"},
+                { data:"quest41"},
+                { data:"quest42"},
+                { data:"quest43"},
+                { data:"quest44"},
+                { data:"quest45"},
+                { data:"quest46"},
+                { data:"quest47"},
+                { data:"quest48"},
+                { data:"quest49"},
+                { data:"quest50"},
+                { data:"quest51"},
+                { data:"quest52"},
+                { data:"quest53"},
+                { data:"quest54"},
+                { data:"quest55"},
+                { data:"quest56"},
+                { data:"quest57"},
+                { data:"quest58"},
+                { data:"quest59"},
+                { data:"quest60"},
+                { data:"quest61"},
+                { data:"quest62"},
+                { data:"quest63"},
+                { data:"quest64"},
+                { data:"quest65"},
+                { data:"quest66"},
+                { data:"quest67"},
+                { data:"quest68"},
+                { data:"quest69"},
+                { data:"quest70"},
+                { data:"quest71"},
+                { data:"quest72"},
 
-        // Build the chart
+            ],
+        });
+    }
+
+    function startGraph(dataTable,names){
         Highcharts.chart('container', {
-        chart: {
-            plotBackgroundColor: null,
-            plotBorderWidth: null,
-            plotShadow: false,
-            type: 'pie'
-        },
+
         title: {
-            text: 'Browser market shares in April, 2022',
+            text: 'Resultados del Segundo Exámen',
             align: 'left'
         },
-        tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+
+        chart: {
+        renderTo: 'container',
+        type: 'column',
+        options3d: {
+            enabled: true,
+            alpha: 15,
+            beta: 15,
+            depth: 50,
+            viewDistance: 25
+        }
         },
-        accessibility: {
-            point: {
-            valueSuffix: '%'
+        xAxis: {
+            categories: names
+        },
+        yAxis: {
+            title: {
+                enabled: false
             }
+        },
+        tooltip: {
+            headerFormat: '<b>{point.key}</b><br>',
+            pointFormat: 'Puntaje: {point.y}'
+        },
+        legend: {
+            enabled: false
         },
         plotOptions: {
-            pie: {
-            allowPointSelect: true,
-            cursor: 'pointer',
-            dataLabels: {
-                enabled: true,
-                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                connectorColor: 'silver'
-            }
+            column: {
+                depth: 25
             }
         },
-        series: [{
-            name: 'Share',
-            data: [
-            { name: 'Chrome', y: 73.24 },
-            { name: 'Edge', y: 12.93 },
-            { name: 'Firefox', y: 4.73 },
-            { name: 'Safari', y: 2.50 },
-            { name: 'Internet Explorer', y: 1.65 },
-            { name: 'Other', y: 4.93 }
-            ]
-        }]
+
+        series: dataTable,
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 500
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
         });
     }
     
