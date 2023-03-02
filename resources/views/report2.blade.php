@@ -256,6 +256,18 @@
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <style>
+     body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    footer {
+        margin: 5px;
+        background-color: #0068A5;
+        padding: 5px;
+        text-align: center;
+        font-size: 18px;
+        color: #9BD2F0;
+    }
     .container {
     text-align: center;
     justify-content: center; /* Alinear horizontalmente */
