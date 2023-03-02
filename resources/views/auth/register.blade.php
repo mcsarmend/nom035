@@ -312,17 +312,18 @@
 
 
 <script>
-$(function() {
-  $("#birthday").datepicker({
-    changeYear: true,
-    yearRange: "-100:+0" // permite seleccionar los últimos 100 años hasta el año actual
-  });
-});
-$(function() {
-  $("#date_admition").datepicker({
-    changeYear: true,
-    yearRange: "-100:+0" // permite seleccionar los últimos 100 años hasta el año actual
-  });
-});
+
+    $(document).ready(function(){  
+        $("#birthday").datepicker({
+            changeYear: true,
+            yearRange: "-100:+0" // permite seleccionar los últimos 100 años hasta el año actual
+        });
+
+
+        $("#date_admition").datepicker({
+            changeYear: true,
+            yearRange: "-100:+0" // permite seleccionar los últimos 100 años hasta el año actual
+        });
+    });  
 </script>
 @endsection
