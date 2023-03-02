@@ -22,43 +22,43 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-        <div class="relative flex ">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                    @yield('content')
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Acceder</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registrarse</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-        </div>
-        <div class="container">
-            <div class="left">
-                <img src="assets/logo.png" class="img-left">
-                <div class="divsTextF">
-                    <h2 class="h2t1">BIENVENIDOS</h2>
-                </div>
-                <br>
-                <div class="divsTextF">
-                    <h2 class="h2t2">A LA NOM 035</h2>
-                </div>
-                <p style="font-weight: bold;">NOM-035-STPS Factores de riesgo psicosocial en el Trabajo-Identifi&shy;cación, análisis y prevención. </p>
-                <p class="textp">El siguiente formulario tiene como objetivo establecer los elementos a identificar, analizar y prevenir los factores de riesgo psicosocial, así como para promover un entorno organiza­cional favorable en los centros de trabajo. </p>
-                <h3 class="h3t5">Instrucciones</h3>
-                <p class="textp">Favor de responder completamente el cuestionario, no existen res­puestas correctas o incorrectas, se requiere solamente total concentra­ción. Responda considerando las condiciones de los dos últimos meses. Su opinión es muy importante por lo cual se le pide que conteste con total sinceridad. Los datos están protegidos por la Ley Federal de la Pri­vacidad y Confidencialidad del Manejo de Datos, el uso de la informa­ción proporcionada por el trabajador será exclusivamente para fines de mejora del ambiente de trabajo.</p>
+    <body style="height: 100%;margin: 0;">
+        <div style="height: 94vh;">
+            <div>
+                @if (Route::has('login'))
+                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                        @auth
+                        @yield('content')
+                        @else
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Acceder</a>
+    
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registrarse</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif
             </div>
-            <div class="right">
-                <img src="assets/prelogin.png" class="img-right">
+            <div class="container">
+                <div class="left">
+                    <img src="assets/logo.png" class="img-left">
+                    <div class="divsTextF">
+                        <h2 class="h2t1">BIENVENIDOS</h2>
+                    </div>
+                    <br>
+                    <div class="divsTextF">
+                        <h2 class="h2t2">A LA NOM 035</h2>
+                    </div>
+                    <p style="font-weight: bold;">NOM-035-STPS Factores de riesgo psicosocial en el Trabajo-Identifi&shy;cación, análisis y prevención. </p>
+                    <p class="textp">El siguiente formulario tiene como objetivo establecer los elementos a identificar, analizar y prevenir los factores de riesgo psicosocial, así como para promover un entorno organiza­cional favorable en los centros de trabajo. </p>
+                    <h3 class="h3t5">Instrucciones</h3>
+                    <p class="textp">Favor de responder completamente el cuestionario, no existen res­puestas correctas o incorrectas, se requiere solamente total concentra­ción. Responda considerando las condiciones de los dos últimos meses. Su opinión es muy importante por lo cual se le pide que conteste con total sinceridad. Los datos están protegidos por la Ley Federal de la Pri­vacidad y Confidencialidad del Manejo de Datos, el uso de la informa­ción proporcionada por el trabajador será exclusivamente para fines de mejora del ambiente de trabajo.</p>
+                </div>
+                <div class="right">
+                    <img src="assets/prelogin.png" class="img-right">
+                </div>
             </div>
         </div>
-
-
     </body>
     <footer>
         <p class ="pfooter">Buissiness Essentials Group todos los Derechos Reservados 2023</p>
