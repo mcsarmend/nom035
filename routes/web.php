@@ -39,4 +39,5 @@ Route::post('/procesarFormularioRP', [riesgopsicosocialController::class, 'proce
 Route::get('/terminado', [terminadoController::class, 'terminado']);
 Route::get('/report2', [reportsController::class, 'report2']);
 Route::get('/getinfoform2', [reportsController::class, 'getinfoform2']);
+Route::get('/getinfoform1_sec1', [reportsController::class, 'getinfoform1_sec1']);
 

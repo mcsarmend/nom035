@@ -149,9 +149,9 @@
                           </p>
                           <div class="table-responsive" style="width:100%;">
                           <table  id="idTable" class="table table-condensed table-hover" style="width:100%;overflow-x: auto;">
+                            <thead>
 
                                 <th scope="col">name</th>
-                                <th scope="col">id</th>
                                 <th scope="col">quest1</th>
                                 <th scope="col">quest2</th>
                                 <th scope="col">quest3</th>
@@ -349,8 +349,7 @@
             type: "GET",
             dataType: 'json',
                 success: function (data) {
-                console.log(data);
-                startGraph(data);
+
                 // Cada uno de los asesores 
                 data.forEach(element => {
                     // suma de los valores de sus examenes 
@@ -393,7 +392,66 @@
                 startReport(data);
         }})
     }
+    function startGraph(dataTable,names){
+        Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Asesores',
+            align: 'left'
+        },
 
+        subtitle: {
+            text: 'Texto subtitulado',
+            align: 'left'
+        },
+
+        yAxis: {
+            title: {
+                text: 'Puntaje'
+            }
+        },
+
+        xAxis: {
+            categories: names,
+            crosshair: true
+        },
+
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        plotOptions: {
+            series: {
+                label: {
+                    connectorAllowed: false
+                },
+                
+            }
+        },
+
+        series:dataTable,
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 500
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+        });
+    }
     function startReport(data){
         // Array de objetos con los datos
         var datos = [
@@ -403,7 +461,7 @@
         ];
         
         // Crear la tabla
-        var miTabla = $("#miTabla").DataTable({
+        var miTabla = $("#idTable").DataTable({
             dom: 'Bfrtip',
             buttons: [
             'excelHtml5',
@@ -413,7 +471,6 @@
             data: data,
             columns: [
                 { data:"name"},
-                { data:"id"},
                 { data:"quest1"},
                 { data:"quest2"},
                 { data:"quest3"},
@@ -491,65 +548,7 @@
         });
     }
 
-    function startGraph(dataTable,names){
-        Highcharts.chart('container', {
 
-        title: {
-            text: 'Resultados del Segundo Exámen',
-            align: 'left'
-        },
-
-        chart: {
-        renderTo: 'container',
-        type: 'column',
-        options3d: {
-            enabled: true,
-            alpha: 15,
-            beta: 15,
-            depth: 50,
-            viewDistance: 25
-        }
-        },
-        xAxis: {
-            categories: names
-        },
-        yAxis: {
-            title: {
-                enabled: false
-            }
-        },
-        tooltip: {
-            headerFormat: '<b>{point.key}</b><br>',
-            pointFormat: 'Puntaje: {point.y}'
-        },
-        legend: {
-            enabled: false
-        },
-        plotOptions: {
-            column: {
-                depth: 25
-            }
-        },
-
-        series: dataTable,
-
-        responsive: {
-            rules: [{
-                condition: {
-                    maxWidth: 500
-                },
-                chartOptions: {
-                    legend: {
-                        layout: 'horizontal',
-                        align: 'center',
-                        verticalAlign: 'bottom'
-                    }
-                }
-            }]
-        }
-
-        });
-    }
     
 </script>
 @endsection

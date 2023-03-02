@@ -34,6 +34,7 @@ class User extends Authenticatable
         'working_day',
         'date_admition',
         'password',
+        'pass'
     ];
 
     /**

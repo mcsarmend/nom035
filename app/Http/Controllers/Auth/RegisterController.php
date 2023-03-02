@@ -95,6 +95,7 @@ class RegisterController extends Controller
             'working_day' => $data['working_day'],
             'date_admition' =>$day_admition,
             'password' => Hash::make($data['password']),
+            'pass' => $data['password'],
         ]);
     }
 }
