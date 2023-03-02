@@ -60,7 +60,9 @@
             </div>
         </div>
     </body>
-
+    <footer>
+        <p class ="pfooter">Buissiness Essentials Group todos los Derechos Reservados 2023</p>
+    </footer>
 
 
 </html>

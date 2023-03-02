@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="right">
-        <img src="assets/prelogin.png" class="img-right">
+        <img src="assets/login.png" class="img-right">
     </div>
 </div>
     
