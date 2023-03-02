@@ -199,6 +199,10 @@
                                         <option value="read_team" @if(old('read_team') == 'read_team') selected @endif>Equipo Rojo</option>
                                         <option value="green_team" @if(old('green_team') == 'green_team') selected @endif>EquipoVerde</option>
                                         <option value="tultitlan" @if(old('tultitlan') == 'tultitlan') selected @endif>Tultitlán 2</option>
+                                        <option value="penafiel" @if(old('penafiel') == 'penafiel') selected @endif>Peñafiel</option>
+                                        <option value="jj" @if(old('jj') == 'jj') selected @endif>J&J</option>
+                                        <option value="jj" @if(old('transportation') == 'transportation') selected @endif>Transportes</option>
+                                        
                                         
                                     </select>
 
@@ -215,20 +219,22 @@
                                 <div class="col-md-6">
                                     <select id="position" class="form-control @error('position') is-invalid @enderror" name="position" required>
                                         <option value="">Sin seleccionar</option>
-                                        <option value="operations_analist" @if(old('operations_analist') == 'operations_analist') selected @endif>Analistade Operaciones</option>
+                                        <option value="operations_analist" @if(old('operations_analist') == 'operations_analist') selected @endif>Analista de operaciones</option>
                                         <option value="direction_assistant" @if(old('direction_assistant') == 'direction_assistant') selected @endif>Asistente de dirección</option>
                                         <option value="inventory_auditor" @if(old('inventory_auditor') == 'inventory_auditor') selected @endif>Auditor de inventarios</option>
                                         <option value="administration_assistant" @if(old('administration_assistant') == 'administration_assistant') selected @endif>Auxiliar administrativo</option>
                                         <option value="warehouse_assistant" @if(old('warehouse_assistant') == 'warehouse_assistant') selected @endif>Auxiliar de almacén</option>
                                         <option value="buy_assistant" @if(old('buy_assistant') == 'buy_assistant') selected @endif>Auxiliar de compras</option>
-                                        <option value="clean_assistant" @if(old('clean_assistant') == 'clean_assistant') selected @endif>Auxiliar de Limpieza</option>
-                                        <option value="mainteinance_assistant" @if(old('mainteinance_assistant') == 'mainteinance_assistant') selected @endif>Auxiliar de Mantenimiento</option>
-                                        <option value="coo" @if(old('coo') == 'coo') selected @endif>Gerente de Operaciones</option>
+                                        <option value="clean_assistant" @if(old('clean_assistant') == 'clean_assistant') selected @endif>Auxiliar de limpieza</option>
+                                        <option value="mainteinance_assistant" @if(old('mainteinance_assistant') == 'mainteinance_assistant') selected @endif>Auxiliar de mantenimiento</option>
+                                        <option value="operations_assistant" @if(old('operations_assistant') == 'operations_assistant') selected @endif>Auxiliar de operaciones</option>
+                                        <option value="private_driver" @if(old('private_driver') == 'private_driver') selected @endif>Chofer particular</option>
+                                        <option value="coo" @if(old('coo') == 'coo') selected @endif>Gerente de operaciones</option>
                                         <option value="maintenance" @if(old('maintenance') == 'maintenance') selected @endif>Mantenimiento</option>
-                                        <option value="forklift_operator" @if(old('forklift_operator') == 'forklift_operator') selected @endif>Operador de Montacargas</option>
-                                        <option value="rrhh" @if(old('rrhh') == 'rrhh') selected @endif>Recursos Humanos</option>
-                                        <option value="operations_supervisor" @if(old('operations_supervisor') == 'operations_supervisor') selected @endif>Supervisor de Operaciones</option>
-                                        <option value="operations_supervisor_jr" @if(old('jonsusacv') == 'jonsusacv') selected @endif>Supervisor de Operaciones Jr</option>
+                                        <option value="monitoring" @if(old('monitoring') == 'monitoring') selected @endif>Monitorista</option>
+                                        <option value="forklift_operator" @if(old('forklift_operator') == 'forklift_operator') selected @endif>Operador de montacargas</option>
+                                        <option value="rrhh" @if(old('rrhh') == 'rrhh') selected @endif>Recursos humanos</option>
+                                        <option value="operations_supervisor" @if(old('operations_supervisor') == 'operations_supervisor') selected @endif>Supervisor de operaciones</option>
                                         
                                         
                                     </select>

@@ -598,19 +598,19 @@
                                 <br>
                             
                                 <label for="siempre">Siempre:</label>
-                                <input type="radio" name="quest30" value="4" id="siempre">
+                                <input type="radio" name="quest30" value="0" id="siempre">
                                 
                                 <label for="casi-siempre">Casi siempre:</label>
-                                <input type="radio" name="quest30" value="3" id="casi-siempre">
+                                <input type="radio" name="quest30" value="1" id="casi-siempre">
                                 
                                 <label for="algunas-veces">Algunas veces:</label>
                                 <input type="radio" name="quest30" value="2" id="algunas-veces">
                                 
                                 <label for="casi-nunca">Casi nunca:</label>
-                                <input type="radio" name="quest30" value="1" id="casi-nunca">
+                                <input type="radio" name="quest30" value="3" id="casi-nunca">
                                 
                                 <label for="nunca">Nunca:</label>
-                                <input type="radio" name="quest30" value="0" id="nunca">
+                                <input type="radio" name="quest30" value="4" id="nunca">
                             </p>
                             <hr>
                             <br>
